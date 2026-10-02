@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.illit.app"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.illit.app"
         minSdk = 29
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
     }
@@ -45,7 +45,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended:1.6.0")
     
-    // Ink API per la scrittura fluida (la stessa usata da Freenotes)
+    // Ink API per la scrittura fluida
     implementation("androidx.ink:ink-authoring:1.0.0")
     implementation("androidx.ink:ink-brush:1.0.0")
     implementation("androidx.ink:ink-geometry:1.0.0")
